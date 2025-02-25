@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Shop</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #333;
+        color: white;
+        padding: 15px;
+        text-align: center;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    section {
+        padding: 20px;
+        text-align: center;
+    }
+    .product-card {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 10px;
+        display: inline-block;
+    }
+    form {
+        max-width: 400px;
+        margin: auto;
+        text-align: left;
+    }
+    form input, form textarea, form button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>E-Shop</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="products">
+    <h2>Products</h2>
+    <article class="product-card">
+        <img src="phone.png" alt="Product Image 1" width="200">
+        <h3>Samsung Galaxy S24</h3>
+        <p>Smartphone</p>
+        <p>Price: $1000</p>
+    </article>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to E-Shop. We offer a wide range of products...</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+</body>
+</html>

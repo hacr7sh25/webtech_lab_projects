@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin-bottom: 20px;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+a:hover {
+    color: red;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+}
